@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            .header {
+                text-align: right;
+            }
+            .center {
+                width: 300px;
+                margin: 0 auto;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html">&lt;= Back</a>
+        </div>
+        <div>
+            <form action="https://www.google.com/search">
+                <label for "normal">All of these words:</label>
+                <input type="text" name="as_q" id="normal">     
+                <br>
+                <label for "verbatim">This exact word or phrase:</label>
+                <input type="text" name="as_epq" id="verbatim">     
+                <br>
+                <label for "exclude">None of these words:</label>
+                <input type="text" name="as_eq" id="exclude">
+                <br>
+                <label for "site">Site or domain:</label>
+                <input type="text" name="as_sitesearch" id="site">
+                <br>
+                <input type="submit" value="Google Search" style="background-color:blue; color:white">
+            </form>
+        </div>    
+    </body>
+</html>
